@@ -1,0 +1,138 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* styles to apply to body */
+
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    align-items: center;
+}
+
+.flex-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.flex-container, .nav-links, .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* nav bar styles */
+
+.nav {
+    height: 80px;
+    background-color: lightskyblue;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.nav-links {
+    width: 50%;
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav-links a {
+    color: #f3f3f3;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* city/temp selector row */
+
+.city {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    padding: 10px 0px;
+}
+
+/* row of days for the forecast */
+
+.days {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.day {
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    height: 200px;
+    width: 150px;
+}
+
+.weather {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.temps {
+    display: flex;
+    justify-content: space-around;
+}
+
+.high {
+    color: red;
+    font-weight: bold;
+}
+
+.low {
+    color: blue;
+    font-weight: bold;
+}
+
+/* cookie at bottom of page */
+
+.cookie {
+    margin: 0 auto;
+    width: 1000px;
+    border: 2px solid black;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 5px;
+}
+.cookiepic {
+    margin: 15px;
+}
+
+.desc {
+    width: 525px;
+    margin: 15px;
+}
+
+a {
+    color: #3a81e6;
+}
+
+.cookiebtn {
+    height: 30px;
+    width: 100px;
+    color: #fff;
+    background-color: #17a2b8;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 15px;
+}
